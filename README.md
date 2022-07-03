@@ -43,9 +43,9 @@ Feel free to change the no of epochs and image size (although 100 is what gave u
 #### Predictions
 Now, to run our model on some fresh data
 ```
-python predict.py --zip_file eye_gender_data.zip --model_path eye_cnn_model --image_size 100
+python predict.py --zip_file eye_gender_data.zip --model_path my_trained_model --image_size 100
 ```
-Again, the zip file parameter leads to our testing data. The `model_path` parameter leads to our saved model. To use our pre-trained model use `eye_cnn_model` here. To use your trained model, use `my_trained_model` here. The `image_size` parameter should be the same as that which you trained the model with. To avoid any issues, we recommend sticking to 100.
+Again, the zip file parameter leads to our testing data. The `image_size` parameter should be the same as that which you trained the model with. To avoid any issues, we recommend sticking to 100.
 
 ## Full Architecture
 As promised, here is our full architecture. Please be warned, it's quite a long image.
