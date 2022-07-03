@@ -1,4 +1,4 @@
-# Eye Gender Predicctor
+# Eye Gender Predictor
 Predict Gender from Eye Morphology Using CNN
 
 ## Introduction
