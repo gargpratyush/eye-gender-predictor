@@ -17,7 +17,7 @@ Here's some sample data:
 Our architecture consists of the following :
 1. **Data Augmentation Layer -** We start with a augmenting the data with random flips, rotations, zooms and crops. You can see our data augmentation layer in action in our ipynb file.
 2. **Convolution -** We then have a basic CNN and ReLU layer
-3. **Residual Blocks -** We then have 14 successive residual block layers that consist of BatchNorm, Dropout and CNN layers with the input being added back to the output. This is the key feature of Residual Blocks or Skip Connections and improves accuracy and prevents vanishing gradients in Deep NNs. Some residual bloakcs also consist of a downsampling layer to reduce dimensionality.
+3. **Residual Blocks -** We then have 14 successive residual block layers that consist of BatchNorm, Dropout and CNN layers with the input being added back to the output. This is the key feature of Residual Blocks or Skip Connections and improves accuracy and prevents vanishing gradients in Deep NNs. Some of our residual blocks also consist of a downsampling layer to reduce dimensionality.
 4. **Avg Pooling -** We pass it through an Average Pooling Layer to reduce dimensionality.
 5. **Feed Forward Network -** After convolution and pooling, We finally pass our downsampled output through a Dense layer i.e a Normal Neural Net to finally output a prediction
 
