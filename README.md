@@ -7,10 +7,15 @@ Here, we have created a custom CNN architecture loosely based off of ResNet that
 ## Data
 The data, present in `eye_gender_data.zip` consists of a Training set with labelled images and a test set with unlabelled images. The images are photos of eyes with an associated male or female label.
 
+Here's some sample data:
+
+![image](https://user-images.githubusercontent.com/87599801/177036607-cfe135e9-a0aa-4e4b-929a-cbce75e7b7e5.png)
+
+
 ## Architecture
 
 Our architecture consists of the following :
-1. **Data Augmentation Layer -** We start with a augmenting the data with random flips, rotations, zooms and crops
+1. **Data Augmentation Layer -** We start with a augmenting the data with random flips, rotations, zooms and crops. You can see our data augmentation layer in action in our ipynb file.
 2. **Convolution -** We then have a basic CNN and ReLU layer
 3. **Residual Blocks -** We then have 14 successive residual block layers than consist of BatchNorm, Dropout and CNN layers with the input being added back to the output. This is the key feature of Residual Blocks or Skip Connections and improves accuracy and prevents vanishing gradients in Deep NNs. Some residual bloakcs also consist of a downsampling layer to reduce dimensionality.
 4. **Avg Pooling -** We pass it through an Average Pooling Layer to reduce dimensionality.
@@ -29,7 +34,7 @@ git clone https://github.com/ramsundaram101/Eye-Gender-Predicctor
 
 #### Training
 
-If you want to train your own model, run the `train.py` script:
+If you want to train your own model, run the `train.py` script. You can also go through our `.ipynb` file to comb through the code yourself and visualize the data
 ```
 python train.py --zip_file eye_gender_data.zip --no_epochs 50 --image_size 100
 ```
