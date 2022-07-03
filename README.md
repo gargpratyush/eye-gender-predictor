@@ -29,7 +29,7 @@ For a visual representation of our architecture, scroll to the bottom of this Re
 
 First, open your Terminal and clone this repository
 ```
-git clone https://github.com/ramsundaram101/Eye-Gender-Predicctor
+git clone https://github.com/ramsundaram101/Eye-Gender-Predictor
 ```
 
 #### Training
