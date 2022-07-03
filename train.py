@@ -120,6 +120,7 @@ def train(x_train, y_train, model, no_epochs = 30, batch_size = 64):
     
 def predict(model, x_test, y_test):
     preds = model.predict(x_test)
+    preds = [0.0 if preds[i] <=0.5 else 1.0 for i in range(len(preds))]
     acc = accuracy_score(y_test,preds)
     return preds, acc
 
