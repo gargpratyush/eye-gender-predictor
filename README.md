@@ -52,6 +52,12 @@ As promised, here is our full architecture. Please be warned, it's quite a long 
 
 ![model](https://user-images.githubusercontent.com/87599801/177036490-15847235-d837-41fe-87d5-2e2ca658cee8.png)
 
-Than you for so much for reading. I'm quite surprised you scrolled all the way down here
+Than you for so much for reading. I'm quite surprised you scrolled all the way down here. Have some memes for your time
+
+![image](https://user-images.githubusercontent.com/87599801/232246549-a0d47932-0fd9-40ba-ab27-e6395bce4408.png)
+
+
+![image](https://user-images.githubusercontent.com/87599801/232246536-0fbf6c37-ee02-47ee-80ff-c41d540b3c66.png)
+
 
 
